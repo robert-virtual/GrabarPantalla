@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="GrabarPantalla.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GrabarPantalla"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <RelativePanel>
+            <StackPanel>
+                <Button Content="Grabar" x:Name="BtnGrabar" Click="BtnGrabar_Click" />
+                <Button Content="ScreenShot" x:Name="ScreenShotBtn" Click="ScreenShotBtn_Click"  />
+            </StackPanel>
+        </RelativePanel>
+    </Grid>
+</Page>
